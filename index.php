@@ -6,11 +6,12 @@
 	<title>gitry</title>
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 <link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/stle.css">
 	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
 </head>
 <body>
-<nav class="navbar navbar-default">
+<nav class="navbar navbar-info">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
@@ -65,8 +66,10 @@
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
+<div class="container">
+  
 
-	<div class="list-group">
+	<div class="list-group" id="lista">
   <a href="#" class="list-group-item active" onclick="alert('se hiso click(function(event) {
   	/* Act on the event */
   });')">
@@ -83,6 +86,7 @@
     <p class="list-group-item-text">Numero Expediente</p>
   </a>
 
+</div>
 </div>
 </body>
 </html>
