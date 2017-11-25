@@ -67,8 +67,10 @@
 </nav>
 
 	<div class="list-group">
-  <a href="#" class="list-group-item active">
-    <h4 class="list-group-item-heading">Nombre Paciente 1</h4>
+  <a href="#" class="list-group-item active" onclick="alert('se hiso click(function(event) {
+  	/* Act on the event */
+  });')">
+    <h4 id="paciente1" class="list-group-item-heading">Nombre Paciente 1</h4>
     <p class="list-group-item-text">Numero Expediente</p>
   </a>
    <a href="#" class="list-group-item ">
